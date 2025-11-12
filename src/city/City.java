@@ -62,6 +62,8 @@ public class City {
     }
 
     public String toString(){
-        return "ville de " + this.name + " en " + this.country + " ayant " + this.population;
+        String fullDescription =  this.name + ", " + this.country;
+        if(this.population != 0)  fullDescription += " population  " + this.population;
+        return fullDescription;
     }
 }
