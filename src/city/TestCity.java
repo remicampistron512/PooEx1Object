@@ -20,5 +20,14 @@ public class TestCity {
         saintGeours.offsetPopulation(-500);
 
         System.out.println(saintGeours.getName() + ". population = "+ saintGeours.getPopulation() + ". Pays : "+ saintGeours.getCountry());
+
+        // Exercice 1.3
+
+        City rabat = new City("Rabat",577000);
+        System.out.println("[ville : " + rabat.getName() + "]  [pays : " +  rabat.getCountry() + "]  [Population : " + rabat.getPopulation() + "]" );
+        rabat.setCountry("Maroc");
+        System.out.println("[ville : " + rabat.getName() + "]  [pays : " +  rabat.getCountry() + "]  [Population : " + rabat.getPopulation() + "]" );
+
+
     }
 }
