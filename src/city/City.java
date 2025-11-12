@@ -4,16 +4,19 @@ public class City {
     public String name;
     public String country;
     public int population;
+    public static int nbInstances;
 
     public City(String name, String country, int population){
         this.name = name;
         this.country = country;
         this.population = population;
+        nbInstances ++;
     }
 
     public City(String name, int population){
         this.name = name;
         this.population = population;
+        nbInstances ++;
     }
     public String getName() {
         return name;

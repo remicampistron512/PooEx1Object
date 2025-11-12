@@ -35,7 +35,12 @@ public class TestCity {
         System.out.print(toulouse);
 
         // Exercice 1.6
-        System.out.println(toulouse.toString());
+        System.out.println("");
+        System.out.print(toulouse);
+
+        //  Exercice 1.7
+        System.out.println("");
+        System.out.println ("nombre d'instances" + City.nbInstances);
 
     }
 }
