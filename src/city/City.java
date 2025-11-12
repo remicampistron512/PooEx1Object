@@ -18,6 +18,11 @@ public class City {
         this.population = population;
         nbInstances ++;
     }
+    public City(String name,  String country){
+        this.name = name;
+        this.country = country;
+        nbInstances ++;
+    }
     public String getName() {
         return name;
     }
