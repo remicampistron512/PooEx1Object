@@ -48,4 +48,8 @@ public class City {
             this.population += offset;
         }
     }
+
+    public String display(){
+        return "ville de " + this.name + " en " + this.country + " ayant " + this.population;
+    }
 }
