@@ -28,7 +28,10 @@ public class TestCity {
         rabat.setCountry("Maroc");
         System.out.println("[ville : " + rabat.getName() + "]  [pays : " +  rabat.getCountry() + "]  [Population : " + rabat.getPopulation() + "]" );
 
-        // Exercice 1.4 
+        // Exercice 1.4
         System.out.println(toulouse.display());
+
+        // Exercice 1.5
+        System.out.print(toulouse);
     }
 }
