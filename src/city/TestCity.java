@@ -33,5 +33,9 @@ public class TestCity {
 
         // Exercice 1.5
         System.out.print(toulouse);
+
+        // Exercice 1.6
+        System.out.println(toulouse.toString());
+
     }
 }

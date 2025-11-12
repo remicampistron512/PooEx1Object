@@ -52,4 +52,8 @@ public class City {
     public String display(){
         return "ville de " + this.name + " en " + this.country + " ayant " + this.population;
     }
+
+    public String toString(){
+        return "ville de " + this.name + " en " + this.country + " ayant " + this.population;
+    }
 }
