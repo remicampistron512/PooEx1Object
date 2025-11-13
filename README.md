@@ -25,7 +25,7 @@ Ajouter un nouveau constructeur qui accepte 2 paramètres le nom de la ville
 et le nombre d’habitants puis tester le en affichant les 3 attributs. Ensuite, modifier l’attribut
 inconnu en passant par les accesseurs, afficher la ville à nouveau, soigner l’affichage pour
 obtenir ce
-résultat : 
+résultat :  
 ```[ville : Rabat] [pays : unknown] [nombre d'habitants :577 000]```  
 ```[ville : Rabat] [pays : unknown] [nombre d'habitants :577 000]```
 
